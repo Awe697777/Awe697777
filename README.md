@@ -8,5 +8,3 @@ class UserProfile:
         self.bio = I'm passionate about to develop Magento e-commerce
 
 
-if __name__ == "__main__":
-    main()
