@@ -1,16 +1,24 @@
-### Hi there 👋
+# This is a simple Python script to display a user's profile information
 
-<!--
-**Awe697777/Awe697777** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class UserProfile:
+    def __init__(self, username, name, email, bio):
+        self.username = Awan
+        self.name = Awe
+        self.email = sales@awankeusahawanan.com
+        self.bio = I'm passionate about to develop Magento e-commerce
 
-Here are some ideas to get you started:
+    def display_profile(self):
+        print(f"Username: {self.username}")
+        print(f"Name: {self.name}")
+        print(f"Email: {self.email}")
+        print(f"Bio: {self.bio}")
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+def main():
+    # Create a UserProfile instance
+    user = UserProfile("john_doe", "John Doe", "john@example.com", "Coding enthusiast")
+
+    # Display user profile
+    user.display_profile()
+
+if __name__ == "__main__":
+    main()
