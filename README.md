@@ -1,4 +1,4 @@
-# This is a simple Python script to display a user's profile information
+# Profile information
 
 class UserProfile:
     def __init__(self, username, name, email, bio):
